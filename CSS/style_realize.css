@@ -1,0 +1,104 @@
+.realize {
+  width: auto;
+  height: 1200px;
+}
+.realize_image {
+  width: 1440;
+  height: 864px;
+  background-image: url(../image/image_realize_fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.realize_image_wrapper {
+  filter: brightness(30%);
+  transform: translateY(-60%);
+  position: relative;
+  z-index: 1;
+}
+.wrapper_logo_next_media {
+  display: none;
+}
+.title_realize {
+  width: 300px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #e3b873;
+  margin-left: 55px;  
+}
+.realize_list_style_item {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #ffffff;
+  list-style-type: none;
+  margin: 10px;
+}
+.realize_list_style_item:hover {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #e3b873;
+  text-decoration: underline;
+}
+.navigation_realize {
+  display: flex;
+  justify-content: left;
+  position: relative;
+  flex-direction: column;
+  z-index: 2;
+  transform: translateY(40%);
+  margin-left: 75px;
+}
+.realize_photo {
+  display: flex;
+  margin-left: 550px;
+  margin-top: -900px;
+  width: 900px;
+  height: auto;
+  position: relative;
+  z-index: 4;
+}
+.relize_photo_one_two {
+  margin-top: -230px;
+}
+.relize_photo_three_four {
+  margin-top: -300px;
+}
+.realize_photo_one {
+  width: 354px;
+  height: 557px;
+  background-image: url(../image/realize1.png);
+  background-repeat: no-repeat;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+.realize_photo_two {
+  width: 354px;
+  height: 350px;
+  background-image: url(../image/realize2.png);
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+.realize_photo_three {
+  width: 354px;
+  height: 275px;
+  background-image: url(../image/realize3.png);
+  background-repeat: no-repeat;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+.realize_photo_four {
+  width: 354px;
+  height: 625px;
+  background-image: url(../image/realize4.png);
+  background-repeat: no-repeat;
+  margin: 15px;
+}

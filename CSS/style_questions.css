@@ -1,0 +1,165 @@
+.questions {
+  display: flex;
+  justify-content: center;
+  margin-top: -350px;
+  position: relative;
+  z-index: 3;
+}
+.form_questions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  width: 883px;
+  height: 445px;
+  background-color: black;
+}
+.title_questions_form {
+  width: 100%;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.wrapper_container_question_one_two {
+    display: flex;
+  justify-content:start;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+.container_input_questions,
+.container_input_phone_questions {
+  width: 300px;
+  
+}
+
+.container_input_question_questions {
+   margin-top: 30px;
+  width: 65%;  
+}
+
+.input_name_questions,
+.input_phone_questions,
+.input_question_questions {
+  margin-right: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.input_name_questions_label,
+.input_phone_questions_label,
+.input_question_questions_label {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(54, 54, 54, 0.5);
+}
+.three-checkbox {
+    width:100%;
+  margin-top: 0px;
+  margin-left:0px;
+  display: flex;
+  justify-content: center;
+}
+.label {
+  cursor: pointer;
+}
+.checkbox {
+  display: none;
+}
+.fake {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  background: #e3b873;
+  color: #fff;
+  justify-content: center;
+}
+.fake::before {
+  content: "\2714";
+  opacity: 0;
+  transition: 0.2s;
+}
+.checkbox:checked + .fake::before {
+  opacity: 1;
+}
+.text_agree_questions {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 163.68%;
+  color: #ffffff;
+}
+.input_name_questions,
+.input_phone_questions {  
+  margin-left: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(122, 122, 122, 0.5);
+}
+.input_question_questions {    
+  width: 100%;
+  margin-left: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(122, 122, 122, 0.5);
+}
+.button_submit_questions {
+    align-items: center;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  background: #e3b873;
+  box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 2px;
+  border: 0px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.input_name_questions_label,
+.input_phone_questions_label,
+.input_question_questions_label {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+}

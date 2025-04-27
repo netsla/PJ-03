@@ -1,0 +1,119 @@
+.tipes_of_repair {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text_repair {
+  margin-top: 145px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+.logo_repair {
+  margin-top: 13px;
+  width: 115px;
+  height: 28px;
+  background-image: url(../image/repair.png);
+  background-repeat: no-repeat;
+}
+
+.repair {
+  display: flex;
+  justify-content: center;
+  height: 908px;
+  flex-wrap: wrap;
+}
+.repair_one, 
+.repair_two, 
+.repair_three {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:relative;
+}
+
+
+.photo_repair_one {
+  width: 392px;
+  height: 421px;
+  background-image: url(../image/repair1.jpg);
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: sticky;
+}
+.photo_repair_two {
+  width: 392px;
+  height: 421px;
+  background-image: url(../image/repair2.jpg);
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: sticky;
+}
+.photo_repair_three {
+  width: 392px;
+  height: 421px;
+  background-image: url(../image/repair3.jpg);
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: sticky;
+}
+
+.card_repair_one,
+.card_repair_two,
+.card_repair_three {
+  width: 330px;
+  height: auto;
+  background-color: white;
+  padding: 30px;
+  margin: 40px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+  margin-top: -190px;
+  margin-left: 30px;
+  z-index: 1;
+}
+.card_repair_one_list,
+.card_repair_two_list,
+.card_repair_three_list {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 27px;
+  color: #959595;
+  
+}
+
+.price_one,
+.price_two,
+.price_three {
+  width: 258px;
+  height: 54px;
+  background: #e3b873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 18px;
+  margin-left: 43px;
+  margin-top: -30px;
+  margin-bottom: 100px;
+  z-index: 2;  
+}

@@ -1,0 +1,218 @@
+.request {
+  width: auto;
+  height: 745px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+
+.image_build_fon {
+  width: 1006px;
+  height: 645px;
+  background-image: url(../image/build_fon.png);
+  background-repeat: no-repeat;
+  margin-top: -185px;
+}
+.point_number {
+  margin-left: -750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 378px;
+  height: 473px;
+  margin-right: 100px;
+}
+.form_request {
+  width: 506px;
+  height: 509px;
+  background-color: black;
+  margin-top: -70px;
+}
+
+.title_request_form {
+  width: 250px;
+  margin-left: 125px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.point_one,
+.point_two,
+.point_three,
+.point_four {
+  width: 52px;
+  height: 52px;
+  background: #e3b873;
+  border: 8px solid #ffffff;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 30px;
+  margin: -70px;
+
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  line-height: 35px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.text_point_one,
+.text_point_two,
+.text_point_three,
+.text_point_four {
+  margin-top: -160px;
+  margin-left: 0px;
+}
+/* ФОРМА ВВОДА */
+.form_request {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.container_input_request,
+.container_input_phone_request,
+.container_input_mail_request {
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+.input_name_request,
+.input_phone_request,
+.input_mail_request {
+  margin-right: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.input_name_request_label,
+.input_phone_request_label,
+.input_mail_request_label {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(54, 54, 54, 0.5);
+}
+.two-checkbox {
+  margin-top: 0px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: left;
+}
+.label {
+  cursor: pointer;
+}
+.checkbox {
+  display: none;
+}
+.fake {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  background: #e3b873;
+  color: #fff;
+  justify-content: center;
+}
+.fake::before {
+  content: "\2714";
+  opacity: 0;
+  transition: 0.2s;
+}
+.checkbox:checked + .fake::before {
+  opacity: 1;
+}
+.text_agree_request {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 163.68%;
+  color: #ffffff;
+}
+.input_name_request,
+.input_phone_request,
+.input_mail_request {
+  width: 80%;
+  margin-left: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(122, 122, 122, 0.5);
+}
+.button_submit_request {
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  margin-left: 250px;
+  margin-bottom: 0px;
+  background: #e3b873;
+  box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 2px;
+  border: 0px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  
+}
+
+.input_name_request_label,
+.input_phone_request_label,
+.input_mail_request_label {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* ЗНАЧОК СВИНКА ПОД ФОРМОЙ ВВОДА */
+.piggy {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width:550px;
+    margin-top: -350px;
+    margin-left: 750px;
+}
+.image_piggy {
+  width: 100px;
+  height: 100px;
+  
+  background-image: url(../image/piggy.png);
+  background-repeat: no-repeat;
+}
+.text_piggy {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #e3b873;
+  text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+  margin: 50px;
+  width: 250px;
+}

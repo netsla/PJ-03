@@ -1,0 +1,192 @@
+.our_clients {    
+  width: auto;
+  height: 1200px;
+  margin-top: 100px;
+}
+.wrapper_cards_clients {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container_title_clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title_clients {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+.logo_title_our_clients {
+  width: 114px;
+  height: 27px;
+  background-image: url(../image/our_clients.svg);
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+.title_clients_text {
+  width: 400px;
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #363636;
+  margin-bottom: 30px;
+}
+
+.card_client_one,
+.card_client_two,
+.card_client_three {
+  width: 376px;
+  height: 455px;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+  padding: 15px;  
+}
+
+.photo_card_client_one {
+  width: 76px;
+  height: 76px;
+  background-image: url(../image/photo_client_one.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.photo_card_client_two {
+  width: 76px;
+  height: 76px;
+  background-image: url(../image/photo_client_two.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.photo_card_client_three {
+    width: 76px;
+    height: 76px;
+    background-image: url(../image/photo_client_three.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+
+.wrapper_name_photo_client_one,
+.wrapper_name_photo_client_two,
+.wrapper_name_photo_client_three {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.name_card_client_one,
+.name_card_client_two,
+.name_card_client_three {
+  width: 178px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #181818;
+  margin-left: 30px;
+}
+.text_card_client_one,
+.text_card_client_two,
+.text_card_client_three {    
+  width: 285px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  /* or 23px */
+  color: #959595;
+  margin-top: 30px;
+}
+.cifer_card_client_one,
+.cifer_card_client_two,
+.cifer_card_client_three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 55px;
+  background: #e3b873;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 45px;
+  margin-left: -12px;
+}
+.logo_cifer_meter_one,
+.logo_cifer_meter_two,
+.logo_cifer_meter_three {
+  width: 32px;
+  height: 32px;
+  background-image: url(../image/40m2.png);
+  background-repeat: no-repeat;
+}
+.rectangle_one,
+.rectangle_two,
+.rectangle_three {
+  width: 2px;
+  height: 100%;
+  background-color: #ffffff;
+}
+.logo_cifer_days_one,
+.logo_cifer_days_two,
+.logo_cifer_days_three {
+  width: 32px;
+  height: 32px;
+  background-image: url(../image/48days.svg);
+  background-repeat: no-repeat;
+}
+
+.text_logo_cifer_meter_one,
+.text_logo_cifer_days_one,
+.text_logo_cifer_meter_two,
+.text_logo_cifer_days_two,
+.text_logo_cifer_meter_three,
+.text_logo_cifer_days_three {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.build_under_clients {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:start;
+    margin-top: 100px;
+   
+    
+}
+.build_under_clients_one
+ {
+    width: 600px;
+  height: 545px;
+  background-image: url(../image/Build_under_clients.svg);
+  background-repeat: no-repeat;
+  margin-top: -500px;    
+opacity: 0.6;
+
+}
+
+.build_under_clients_two
+ {
+    width: 600px;
+  height: 545px;
+  background-image: url(../image/Build_under_clients.svg);
+  background-repeat: no-repeat;
+  margin-top: -500px; 
+  opacity: 0.6; 
+  transform: scale(-1, 1)
+}
+

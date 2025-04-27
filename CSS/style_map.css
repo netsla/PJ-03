@@ -1,0 +1,105 @@
+.map {
+  width: auto;
+  height: 1100px;
+}
+.image_fon_map {
+  margin-top: -400px;
+  margin-bottom: -250px;
+  width: 1440;
+  height: 1264px;
+  background-image: url(../image/build_footer_fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.image_fon_map_wrapper {
+  filter: brightness(10%);
+  position: relative;
+  z-index: 2;
+}
+.title_map_box {
+  display: flex;
+  width: 350px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -1000px;
+}
+.wrapper_title_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -120px;
+}
+.title_map {
+  width: 350px;
+  font-family: "Yeseva One";
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e3b873;
+  position: relative;
+  z-index: 3;
+}
+.title_logo_1 {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../image/title_map_1.png);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 3;
+}
+.title_logo_2 {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../image/title_map_2.png);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 3;
+}
+.wrapper_image_map_bw {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: -350px;
+}
+.image_map_bw {
+  width: 900px;
+  height: 400px;
+  background-image: url(../image/map_bw.png);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 4;
+}
+.footer_nav {
+  margin-top: 100px;
+  /* margin-bottom: -200px; */
+  background-color: black;
+  position: relative;
+  z-index: 5;
+}
+
+#footer_mobile {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #e3b873;
+  text-decoration: none;
+  margin-right: 10px;
+}
+#footer_mobile:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
