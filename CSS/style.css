@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Nunito Sans;
+  text-decoration: none;
 }
 
 body * {
@@ -64,6 +65,7 @@ body * {
 .hero {
   background-image: url("../image/image_hero.jpg");
   background-size: cover;
+  max-width: 1440px;
   height: 707px;
   padding-top: 194px;
   padding-left: 34px;
@@ -88,6 +90,7 @@ body * {
 
 .subtitle p {
   margin: 0;
+  width: 500px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
